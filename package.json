@@ -9,7 +9,7 @@
     "lint": "next lint",
     "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
-    "prepare": "husky install"
+    "prepare": "husky install && panda codegen"
   },
   "dependencies": {
     "next": "13.4.8",
