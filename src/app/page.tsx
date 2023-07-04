@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { css } from '@styled-system/css';
 
 const Home: React.FC = () => {
   return (
@@ -108,6 +109,18 @@ const Home: React.FC = () => {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
+        <div
+          className={css({
+            color: 'emerald.600',
+            fontSize: '2xl',
+            fontWeight: 'bold',
+          })}
+        >
+          Test of Panda CSS
+        </div>
+        <button className="btn-primary btn rounded-full">
+          <span className="text-xl font-bold">test of daisyui</span>
+        </button>
       </div>
     </main>
   );
