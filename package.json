@@ -2,7 +2,7 @@
   "name": "workspace",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@9.12.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,35 +10,35 @@
     "lint": "next lint",
     "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
-    "prepare": "husky install && panda codegen"
+    "prepare": "husky && panda codegen"
   },
   "dependencies": {
-    "next": "14.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "next": "14.2.14",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.33.0",
-    "@types/node": "20.11.24",
-    "@types/react": "18.2.61",
-    "@types/react-dom": "18.2.19",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
-    "autoprefixer": "10.4.18",
-    "daisyui": "^4.7.2",
+    "@pandacss/dev": "^0.46.1",
+    "@types/node": "22.7.4",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "@typescript-eslint/parser": "^8.8.0",
+    "autoprefixer": "10.4.20",
+    "daisyui": "^4.12.12",
     "eslint": "8.57.0",
-    "eslint-config-next": "14.1.1",
+    "eslint-config-next": "14.2.14",
     "eslint-config-prettier": "^9.1.0",
     "eslint-define-config": "^2.1.0",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.34.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "postcss": "8.4.35",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11",
-    "tailwindcss": "3.4.1",
-    "typescript": "5.3.3"
+    "eslint-plugin-jsx-a11y": "^6.10.0",
+    "eslint-plugin-react": "^7.37.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "postcss": "8.4.47",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "tailwindcss": "3.4.13",
+    "typescript": "5.6.2"
   }
 }
